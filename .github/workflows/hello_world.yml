@@ -44,7 +44,7 @@ jobs:
         
       - name: Remove file2
         run: |
-         echo: "Additional commands"
+         echo "Additional commands"
          rm ./file2.txt 
          ls
          pwd
