@@ -42,5 +42,5 @@ jobs:
       - name: Run script.sh
         run: bash ./script.sh
         
-            - name: Remove file2
+      - name: Remove file2
         run: bash git rm file2.txt
