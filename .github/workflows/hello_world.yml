@@ -40,3 +40,4 @@ jobs:
         
       - name: Run script.sh
         run: script.sh
+        shell: bash
