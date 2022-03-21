@@ -22,8 +22,6 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-      - name: Remove file2
-        run: bash git rm file2.txt
     
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
@@ -43,3 +41,6 @@ jobs:
         
       - name: Run script.sh
         run: bash ./script.sh
+        
+            - name: Remove file2
+        run: bash git rm file2.txt
