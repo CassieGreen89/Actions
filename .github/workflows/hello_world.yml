@@ -39,5 +39,5 @@ jobs:
         run: ls -la
         
       - name: Run script.sh
-        run: Actions/script.sh
+        run: ./script.sh
         shell: bash
