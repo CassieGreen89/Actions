@@ -43,4 +43,9 @@ jobs:
         run: bash ./script.sh
         
       - name: Remove file2
-        run: ls
+        run: |
+         echo: "Additional commands"
+         rm ./file2.txt 
+         ls
+         pwd
+      
